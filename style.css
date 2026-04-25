@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 /* hero section */
@@ -99,31 +100,67 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: bold;
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center; 
+    gap: 52px;
 }
 
 .card {
     border: 4px solid #3882F6;
-    width: 150px;
-    height: 160px;
-    border-radius: 10px;
-    
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
+    text-align: center;
+    width: 170px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+/* qoute section */
+
+.qoute {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tesla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 10px;
+    font-style: italic;
+}
+
+cite {
+    font-size: 25px;
+    margin-left: 600px;
+    font-weight: bold;
 }
 
 
